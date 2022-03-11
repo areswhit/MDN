@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Adding supporting information with the title attribute</h3>
+    <p>I'm creating a link to
+        <a href="https://www.mozilla.org/en-US/"
+           title="The best place to find more information about Mozilla's
+                  mission and how to contribute">the Mozilla homepage</a>.
+        </p>
+
+    <h3>Block level links</h3>
+    <a href="https://www.mozilla.org/en-US/">
+        <img src="mozilla-image.png" alt="mozilla logo that links to the mozilla homepage">
+      </a>
+
+    <h3>Document fragments</h3>
+    <h4 id="Mailing_address">Mailing address</h4>
+    <p>Want to write us a letter? Use our <a href="contacts.html#Mailing_address">mailing address</a>.</p>
+    <p>The <a href="#Mailing_address">company mailing address</a> can be found at the bottom of this page.</p>
+
+    <h3>Linking to non-HTML resources — leave clear signposts</h3>
+    <p><a href="https://www.example.com/large-report.pdf">
+        Download the sales report (PDF, 10MB)
+      </a></p>
+      
+      <p><a href="https://www.example.com/video-stream/" target="_blank">
+        Watch the video (stream opens in separate tab, HD quality)
+      </a></p>
+      
+      <p><a href="https://www.example.com/car-game">
+        Play the car game (requires Flash)
+      </a></p>
+
+    <h3>Use the download attribute when linking to a download</h3>
+    <a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US"
+   download="firefox-latest-64bit-installer.exe">
+  Download Latest Firefox for Windows (64-bit) (English, US)
+</a>
+
+    <h3>E-mail links</h3>
+    <a href="mailto:nowhere@mozilla.org">Send email to nowhere</a>
+
+    <h3>Specifying details</h3>
+    <a href="mailto:nowhere@mozilla.org?cc=name2@rapidtables.com&bcc=name3@rapidtables.com&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">
+        Send mail with cc, bcc, subject and body
+      </a>
+    
+</body>
+</html>
